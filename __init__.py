@@ -1,6 +1,8 @@
 
+from .LMStudioPromptEnhancerNode import LMStudioPromptEnhancerNode
+
 NODE_CLASS_MAPPINGS = {
-    "LMStudioPromptEnhancer": "LMStudioPromptEnhancerNode"
+    "LMStudioPromptEnhancer": LMStudioPromptEnhancerNode
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
